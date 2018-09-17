@@ -153,9 +153,9 @@ function initAnimations()
                 { 
                     keys:[0, .5, 1], 
                     values:[
-                            { y : 0 },
+                            { y : 5*Math.PI/180 },
                             { y : Math.PI  },
-                            { y : Math.PI * 2 },
+                            { y : 365*Math.PI/180 },
                             ],
                     target:monsterGroup.rotation
                 },
